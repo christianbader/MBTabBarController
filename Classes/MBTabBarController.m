@@ -49,7 +49,7 @@
 	
 	[[self tabBar] insertSubview:gradientView atIndex:0];
 	
-	arrow = [[ArrowView alloc] initWithFrame:CGRectMake(0.0, -7.0, 10.0, 7.0)];
+	arrow = [[ArrowView alloc] initWithFrame:CGRectMake(0.0, -6.0, 10.0, 6.0)];
 	[gradientView addSubview:arrow];	
 }
 
@@ -154,7 +154,7 @@
 	
 	if (animated) {
 		[UIView beginAnimations:@"SlideAnimation" context:nil];
-		[UIView setAnimationDuration:0.5];
+		[UIView setAnimationDuration:0.3];
 		arrow.center = CGPointMake(pos, arrow.center.y);
 		[UIView commitAnimations];
 	} else {

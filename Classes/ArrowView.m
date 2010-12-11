@@ -43,13 +43,6 @@
 	CGContextAddLineToPoint(context, 0.0, rect.size.height);
 	CGContextClosePath(context);
 	CGContextFillPath(context);
-	
-	[[UIColor blackColor] set];
-	CGContextSetLineWidth(context, 1.0);
-	CGContextBeginPath(context);
-	CGContextMoveToPoint(context, rect.size.width / 2, 0.0);
-	CGContextAddLineToPoint(context, rect.size.width, rect.size.height);
-	CGContextStrokePath(context);
 }
 
 #pragma mark -
