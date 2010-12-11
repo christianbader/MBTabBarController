@@ -8,6 +8,7 @@
 
 #import "MBTabBarControllerAppDelegate.h"
 #import "MBTabBarController.h"
+#import "MBTabBarItem.h"
 
 @implementation MBTabBarControllerAppDelegate
 
@@ -23,12 +24,23 @@
 	
 	// Custom configuration of the tabbar
 	mbTabBarController.tabBarGradient = YES;
-	mbTabBarController.tabBarTintColor = [UIColor blackColor];
+	mbTabBarController.tabBarTintColor = [UIColor colorWithRed:0.0 green:0.32 blue:0.47 alpha:1.0];
 	
+	MBTabBarItem *firstItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+												   unselectedImage:[UIImage imageNamed:@"house.png"] 
+													 selectedImage:[UIImage imageNamed:@"house_selected.png"]
+															   tag:0] autorelease];
+	
+	MBTabBarItem *secondItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+													unselectedImage:[UIImage imageNamed:@"house.png"] 
+													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
+																tag:0] autorelease];
+	
+	 
 	UIViewController *firstViewController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
-	firstViewController.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Home" image:[UIImage imageNamed:@"house.png"] tag:1] autorelease];
+	firstViewController.tabBarItem = firstItem;
 	UIViewController *secondViewController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
-	secondViewController.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Home" image:[UIImage imageNamed:@"house.png"] tag:1] autorelease];
+	secondViewController.tabBarItem = secondItem;
 	
 	mbTabBarController.viewControllers = [NSArray arrayWithObjects:firstViewController, secondViewController, nil];
 	[firstViewController release];
