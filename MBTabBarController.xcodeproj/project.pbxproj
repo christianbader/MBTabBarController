@@ -15,12 +15,13 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		EB1C8DD412B10B2F00BBE67F /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1C8DD312B10B2F00BBE67F /* MBTabBarController.m */; };
 		EB82A90E12B3E5CE00356892 /* MBTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB82A90D12B3E5CE00356892 /* MBTabBarItem.m */; };
-		EB82A93712B3E8B500356892 /* house_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB82A93512B3E8B500356892 /* house_selected@2x.png */; };
-		EBA577A312B3ED2500A6B49B /* house_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA577A212B3ED2500A6B49B /* house_selected.png */; };
 		EBA577B012B3EE6D00A6B49B /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA577AF12B3EE6D00A6B49B /* house.png */; };
 		EBA69F6E12B3D89300813072 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA69F6D12B3D89300813072 /* MainWindow-iPad.xib */; };
 		EBD5436B12B2A6140035CBF9 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD5436A12B2A6140035CBF9 /* GradientView.m */; };
 		EBD5446012B2BA800035CBF9 /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD5445F12B2BA800035CBF9 /* house@2x.png */; };
+		EBED82F812B4030E00A0C306 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED82F712B4030E00A0C306 /* ArrowView.m */; };
+		EBED841112B4161F00A0C306 /* house_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EBED840F12B4161F00A0C306 /* house_selected.png */; };
+		EBED841212B4161F00A0C306 /* house_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBED841012B4161F00A0C306 /* house_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +39,15 @@
 		EB1C8DD312B10B2F00BBE67F /* MBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarController.m; sourceTree = "<group>"; };
 		EB82A90C12B3E5CE00356892 /* MBTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarItem.h; sourceTree = "<group>"; };
 		EB82A90D12B3E5CE00356892 /* MBTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarItem.m; sourceTree = "<group>"; };
-		EB82A93512B3E8B500356892 /* house_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house_selected@2x.png"; sourceTree = "<group>"; };
-		EBA577A212B3ED2500A6B49B /* house_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_selected.png; sourceTree = "<group>"; };
 		EBA577AF12B3EE6D00A6B49B /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
 		EBA69F6D12B3D89300813072 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		EBD5436912B2A6140035CBF9 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		EBD5436A12B2A6140035CBF9 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		EBD5445F12B2BA800035CBF9 /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
+		EBED82F612B4030E00A0C306 /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
+		EBED82F712B4030E00A0C306 /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
+		EBED840F12B4161F00A0C306 /* house_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_selected.png; sourceTree = "<group>"; };
+		EBED841012B4161F00A0C306 /* house_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				EBD5436A12B2A6140035CBF9 /* GradientView.m */,
 				EB82A90C12B3E5CE00356892 /* MBTabBarItem.h */,
 				EB82A90D12B3E5CE00356892 /* MBTabBarItem.m */,
+				EBED82F612B4030E00A0C306 /* ArrowView.h */,
+				EBED82F712B4030E00A0C306 /* ArrowView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -109,10 +114,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EBED840F12B4161F00A0C306 /* house_selected.png */,
+				EBED841012B4161F00A0C306 /* house_selected@2x.png */,
 				EBA577AF12B3EE6D00A6B49B /* house.png */,
 				EBD5445F12B2BA800035CBF9 /* house@2x.png */,
-				EBA577A212B3ED2500A6B49B /* house_selected.png */,
-				EB82A93512B3E8B500356892 /* house_selected@2x.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MBTabBarController-Info.plist */,
 			);
@@ -189,9 +194,9 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				EBD5446012B2BA800035CBF9 /* house@2x.png in Resources */,
 				EBA69F6E12B3D89300813072 /* MainWindow-iPad.xib in Resources */,
-				EB82A93712B3E8B500356892 /* house_selected@2x.png in Resources */,
-				EBA577A312B3ED2500A6B49B /* house_selected.png in Resources */,
 				EBA577B012B3EE6D00A6B49B /* house.png in Resources */,
+				EBED841112B4161F00A0C306 /* house_selected.png in Resources */,
+				EBED841212B4161F00A0C306 /* house_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +212,7 @@
 				EB1C8DD412B10B2F00BBE67F /* MBTabBarController.m in Sources */,
 				EBD5436B12B2A6140035CBF9 /* GradientView.m in Sources */,
 				EB82A90E12B3E5CE00356892 /* MBTabBarItem.m in Sources */,
+				EBED82F812B4030E00A0C306 /* ArrowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

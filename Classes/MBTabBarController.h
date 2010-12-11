@@ -7,6 +7,7 @@
 //
 
 @class GradientView;
+@class ArrowView;
 
 @interface MBTabBarController : UITabBarController {
 
@@ -14,10 +15,17 @@
 	
 	UIColor *tabBarTintColor;
 	BOOL tabBarGradient;
+	
+	ArrowView *arrow;
+	
+	int pos;
+	BOOL initial;
+	BOOL arrowHidden;
 }
 
 @property (nonatomic, retain) UIColor *tabBarTintColor;
 @property (nonatomic, assign) BOOL tabBarGradient;
+@property (nonatomic, assign) BOOL arrowHidden;
 
 - (void)setTabBarTintColor:(UIColor *)aTintColor;
 

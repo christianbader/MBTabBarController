@@ -25,6 +25,7 @@
 	// Custom configuration of the tabbar
 	mbTabBarController.tabBarGradient = YES;
 	mbTabBarController.tabBarTintColor = [UIColor colorWithRed:0.0 green:0.32 blue:0.47 alpha:1.0];
+	mbTabBarController.arrowHidden = NO;
 	
 	MBTabBarItem *firstItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
 												   unselectedImage:[UIImage imageNamed:@"house.png"] 
@@ -36,15 +37,47 @@
 													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
 																tag:0] autorelease];
 	
-	 
-	UIViewController *firstViewController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
-	firstViewController.tabBarItem = firstItem;
-	UIViewController *secondViewController = [[UIViewController alloc] initWithNibName:nil bundle:nil];
-	secondViewController.tabBarItem = secondItem;
+	MBTabBarItem *thirdItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+													unselectedImage:[UIImage imageNamed:@"house.png"] 
+													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
+																tag:0] autorelease];
 	
-	mbTabBarController.viewControllers = [NSArray arrayWithObjects:firstViewController, secondViewController, nil];
-	[firstViewController release];
-	[secondViewController release];
+	MBTabBarItem *fourthItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+													unselectedImage:[UIImage imageNamed:@"house.png"] 
+													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
+																tag:0] autorelease];
+	
+	MBTabBarItem *fifthItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+													unselectedImage:[UIImage imageNamed:@"house.png"] 
+													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
+																tag:0] autorelease];
+	
+	MBTabBarItem *sixthItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+												   unselectedImage:[UIImage imageNamed:@"house.png"] 
+													 selectedImage:[UIImage imageNamed:@"house_selected.png"] 
+															   tag:0] autorelease];
+	
+	 
+	UIViewController *first = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+	first.tabBarItem = firstItem;
+	UIViewController *second = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+	second.tabBarItem = secondItem;
+	UIViewController *third = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+	third.tabBarItem = thirdItem;
+	UIViewController *fourth = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+	fourth.tabBarItem = fourthItem;
+	UIViewController *fifth = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+	fifth.tabBarItem = fifthItem;
+	UIViewController *sixth = [[UIViewController alloc] initWithNibName:nil bundle:nil];
+	sixth.tabBarItem = sixthItem;
+	
+	mbTabBarController.viewControllers = [NSArray arrayWithObjects:first, second, third, fourth, fifth, sixth, nil];
+	[first release];
+	[second release];
+	[third release];
+	[fourth release];
+	[fifth release];
+	[sixth release];
 	
 	[self.window addSubview:mbTabBarController.view];
     [self.window makeKeyAndVisible];
