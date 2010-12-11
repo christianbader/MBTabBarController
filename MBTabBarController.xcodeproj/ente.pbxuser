@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* MBTabBarControllerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 547}}";
+			sepNavSelRange = "{273, 39}";
+			sepNavVisRange = "{0, 402}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MBTabBarControllerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1326}}";
+			sepNavSelRange = "{706, 0}";
+			sepNavVisRange = "{239, 1249}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MBTabBarController */ = {
+		activeExec = 0;
+		executables = (
+			EB1C8DCA12B10A9000BBE67F /* MBTabBarController */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EB1C8DCA12B10A9000BBE67F /* MBTabBarController */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MBTabBarController */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MBTabBarController */,
+		);
+		breakpoints = (
+			EBD5448412B2BB820035CBF9 /* GradientView.m:11 */,
+			EBD544AE12B2BD0F0035CBF9 /* GradientView.m:11 */,
+		);
+		codeSenseManager = EB1C8DD112B10AAF00BBE67F /* Code sense */;
+		executables = (
+			EB1C8DCA12B10A9000BBE67F /* MBTabBarController */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					835,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					795,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313775296;
+			PBXWorkspaceStateSaveDate = 313775296;
+		};
+		perUserProjectItems = {
+			EB1C8DE312B10C6600BBE67F /* PBXTextBookmark */ = EB1C8DE312B10C6600BBE67F /* PBXTextBookmark */;
+			EBA69F8012B3D9DD00813072 /* PBXTextBookmark */ = EBA69F8012B3D9DD00813072 /* PBXTextBookmark */;
+			EBA69F8112B3D9DD00813072 /* PBXTextBookmark */ = EBA69F8112B3D9DD00813072 /* PBXTextBookmark */;
+			EBA69F8212B3D9DD00813072 /* PBXTextBookmark */ = EBA69F8212B3D9DD00813072 /* PBXTextBookmark */;
+			EBA69F8712B3D9E900813072 /* PBXTextBookmark */ = EBA69F8712B3D9E900813072 /* PBXTextBookmark */;
+			EBA69F8812B3D9E900813072 /* PBXTextBookmark */ = EBA69F8812B3D9E900813072 /* PBXTextBookmark */;
+			EBA69F8E12B3DAF500813072 /* PBXTextBookmark */ = EBA69F8E12B3DAF500813072 /* PBXTextBookmark */;
+			EBD543A112B2AB940035CBF9 /* PBXTextBookmark */ = EBD543A112B2AB940035CBF9 /* PBXTextBookmark */;
+			EBD5446812B2BA930035CBF9 /* PBXBookmark */ = EBD5446812B2BA930035CBF9 /* PBXBookmark */;
+			EBD5446D12B2BAD30035CBF9 /* PBXBookmark */ = EBD5446D12B2BAD30035CBF9 /* PBXBookmark */;
+		};
+		sourceControlManager = EB1C8DD012B10AAF00BBE67F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EB1C8DCA12B10A9000BBE67F /* MBTabBarController */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MBTabBarController;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	EB1C8DD012B10AAF00BBE67F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EB1C8DD112B10AAF00BBE67F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EB1C8DD212B10B2F00BBE67F /* MBTabBarController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 415}}";
+			sepNavSelRange = "{405, 15}";
+			sepNavVisRange = "{0, 478}";
+		};
+	};
+	EB1C8DD312B10B2F00BBE67F /* MBTabBarController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1014}}";
+			sepNavSelRange = "{1716, 0}";
+			sepNavVisRange = "{988, 737}";
+		};
+	};
+	EB1C8DE312B10C6600BBE67F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MBTabBarControllerAppDelegate.h */;
+		name = "MBTabBarControllerAppDelegate.h: 12";
+		rLen = 39;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+	EBA69F8012B3D9DD00813072 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB1C8DD312B10B2F00BBE67F /* MBTabBarController.m */;
+		name = "MBTabBarController.m: 74";
+		rLen = 0;
+		rLoc = 1716;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 988;
+	};
+	EBA69F8112B3D9DD00813072 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBD5436912B2A6140035CBF9 /* GradientView.h */;
+		name = "GradientView.h: 23";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 0;
+	};
+	EBA69F8212B3D9DD00813072 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MBTabBarControllerAppDelegate.m */;
+		name = "MBTabBarControllerAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 708;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 240;
+	};
+	EBA69F8712B3D9E900813072 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBD5436A12B2A6140035CBF9 /* GradientView.m */;
+		name = "GradientView.m: 81";
+		rLen = 37;
+		rLoc = 1534;
+		rType = 0;
+		vrLen = 669;
+		vrLoc = 1304;
+	};
+	EBA69F8812B3D9E900813072 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EB1C8DD212B10B2F00BBE67F /* MBTabBarController.h */;
+		name = "MBTabBarController.h: 20";
+		rLen = 15;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	EBA69F8E12B3DAF500813072 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MBTabBarControllerAppDelegate.m */;
+		name = "MBTabBarControllerAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 239;
+	};
+	EBD5436912B2A6140035CBF9 /* GradientView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 415}}";
+			sepNavSelRange = "{456, 0}";
+			sepNavVisRange = "{0, 462}";
+		};
+	};
+	EBD5436A12B2A6140035CBF9 /* GradientView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 1534}}";
+			sepNavSelRange = "{1308, 0}";
+			sepNavVisRange = "{1325, 209}";
+		};
+	};
+	EBD543A112B2AB940035CBF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EBD543A212B2AB940035CBF9 /* CGColor.h */;
+		name = "CGColor.h: 89";
+		rLen = 64;
+		rLoc = 3278;
+		rType = 0;
+		vrLen = 1153;
+		vrLoc = 2798;
+	};
+	EBD543A212B2AB940035CBF9 /* CGColor.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGColor.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGColor.h;
+		sourceTree = "<absolute>";
+	};
+	EBD5446812B2BA930035CBF9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EBD5445F12B2BA800035CBF9 /* house@2x.png */;
+	};
+	EBD5446D12B2BAD30035CBF9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EBD5445112B2B9F40035CBF9 /* house.png */;
+	};
+	EBD5448412B2BB820035CBF9 /* GradientView.m:11 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = EBD5436A12B2A6140035CBF9 /* GradientView.m */;
+		functionName = "-setGradient:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 11;
+		location = MBTabBarController;
+		modificationTime = 313705135.6803581;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	EBD544AE12B2BD0F0035CBF9 /* GradientView.m:11 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = EBD5436A12B2A6140035CBF9 /* GradientView.m */;
+		functionName = "-getColorComponents";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 11;
+		location = MBTabBarController;
+		modificationTime = 313705135.680732;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+}
