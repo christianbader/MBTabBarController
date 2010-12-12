@@ -56,7 +56,7 @@
 	[tintColor autorelease];
 	tintColor = [newValue retain];
 	
-	[self setNeedsLayout];
+	[self setNeedsDisplay];
 }
 
 @end

@@ -19,6 +19,7 @@
 		EBA69F6E12B3D89300813072 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA69F6D12B3D89300813072 /* MainWindow-iPad.xib */; };
 		EBD5436B12B2A6140035CBF9 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD5436A12B2A6140035CBF9 /* GradientView.m */; };
 		EBD5446012B2BA800035CBF9 /* house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD5445F12B2BA800035CBF9 /* house@2x.png */; };
+		EBE9BF3912B503980043C394 /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE9BF3812B503980043C394 /* ConfigurationViewController.m */; };
 		EBED82F812B4030E00A0C306 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED82F712B4030E00A0C306 /* ArrowView.m */; };
 		EBED841112B4161F00A0C306 /* house_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EBED840F12B4161F00A0C306 /* house_selected.png */; };
 		EBED841212B4161F00A0C306 /* house_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBED841012B4161F00A0C306 /* house_selected@2x.png */; };
@@ -44,6 +45,8 @@
 		EBD5436912B2A6140035CBF9 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		EBD5436A12B2A6140035CBF9 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		EBD5445F12B2BA800035CBF9 /* house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@2x.png"; sourceTree = "<group>"; };
+		EBE9BF3712B503980043C394 /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
+		EBE9BF3812B503980043C394 /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationViewController.m; sourceTree = "<group>"; };
 		EBED82F612B4030E00A0C306 /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
 		EBED82F712B4030E00A0C306 /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
 		EBED840F12B4161F00A0C306 /* house_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_selected.png; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				EB82A90D12B3E5CE00356892 /* MBTabBarItem.m */,
 				EBED82F612B4030E00A0C306 /* ArrowView.h */,
 				EBED82F712B4030E00A0C306 /* ArrowView.m */,
+				EBE9BF3712B503980043C394 /* ConfigurationViewController.h */,
+				EBE9BF3812B503980043C394 /* ConfigurationViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				EBD5436B12B2A6140035CBF9 /* GradientView.m in Sources */,
 				EB82A90E12B3E5CE00356892 /* MBTabBarItem.m in Sources */,
 				EBED82F812B4030E00A0C306 /* ArrowView.m in Sources */,
+				EBE9BF3912B503980043C394 /* ConfigurationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

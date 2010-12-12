@@ -7,6 +7,7 @@
 //
 
 #import "MBTabBarControllerAppDelegate.h"
+#import "ConfigurationViewController.h"
 #import "MBTabBarController.h"
 #import "MBTabBarItem.h"
 
@@ -23,43 +24,43 @@
     mbTabBarController = [[MBTabBarController alloc] initWithNibName:nil bundle:nil];
 	
 	// Custom configuration of the tabbar
-	mbTabBarController.tabBarGradient = YES;
+	mbTabBarController.tabBarGradient = NO;
 	mbTabBarController.tabBarTintColor = [UIColor colorWithRed:0.0 green:0.32 blue:0.47 alpha:1.0];
 	mbTabBarController.arrowHidden = NO;
 	
-	MBTabBarItem *firstItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+	MBTabBarItem *firstItem = [[[MBTabBarItem alloc] initWithTitle:@"Config" 
 												   unselectedImage:[UIImage imageNamed:@"house.png"] 
 													 selectedImage:[UIImage imageNamed:@"house_selected.png"]
 															   tag:0] autorelease];
 	
-	MBTabBarItem *secondItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+	MBTabBarItem *secondItem = [[[MBTabBarItem alloc] initWithTitle:@"Second" 
 													unselectedImage:[UIImage imageNamed:@"house.png"] 
 													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
 																tag:0] autorelease];
 	
-	MBTabBarItem *thirdItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+	MBTabBarItem *thirdItem = [[[MBTabBarItem alloc] initWithTitle:@"Third" 
 													unselectedImage:[UIImage imageNamed:@"house.png"] 
 													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
 																tag:0] autorelease];
 	
-	MBTabBarItem *fourthItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+	MBTabBarItem *fourthItem = [[[MBTabBarItem alloc] initWithTitle:@"Fourth" 
 													unselectedImage:[UIImage imageNamed:@"house.png"] 
 													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
 																tag:0] autorelease];
 	
-	MBTabBarItem *fifthItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+	MBTabBarItem *fifthItem = [[[MBTabBarItem alloc] initWithTitle:@"Fifth" 
 													unselectedImage:[UIImage imageNamed:@"house.png"] 
 													  selectedImage:[UIImage imageNamed:@"house_selected.png"] 
 																tag:0] autorelease];
 	
-	MBTabBarItem *sixthItem = [[[MBTabBarItem alloc] initWithTitle:@"Home" 
+	MBTabBarItem *sixthItem = [[[MBTabBarItem alloc] initWithTitle:@"Sixth" 
 												   unselectedImage:[UIImage imageNamed:@"house.png"] 
 													 selectedImage:[UIImage imageNamed:@"house_selected.png"] 
 															   tag:0] autorelease];
 	
 	 
-	UIViewController *first = [[UIViewController alloc] initWithNibName:nil bundle:nil];
-	first.tabBarItem = firstItem;
+	ConfigurationViewController *configurationViewController = [[ConfigurationViewController alloc] initWithNibName:nil bundle:nil];
+	configurationViewController.tabBarItem = firstItem;
 	UIViewController *second = [[UIViewController alloc] initWithNibName:nil bundle:nil];
 	second.tabBarItem = secondItem;
 	UIViewController *third = [[UIViewController alloc] initWithNibName:nil bundle:nil];
@@ -71,8 +72,8 @@
 	UIViewController *sixth = [[UIViewController alloc] initWithNibName:nil bundle:nil];
 	sixth.tabBarItem = sixthItem;
 	
-	mbTabBarController.viewControllers = [NSArray arrayWithObjects:first, second, third, fourth, fifth, sixth, nil];
-	[first release];
+	mbTabBarController.viewControllers = [NSArray arrayWithObjects:configurationViewController, second, third, fourth, fifth, sixth, nil];
+	[configurationViewController release];
 	[second release];
 	[third release];
 	[fourth release];

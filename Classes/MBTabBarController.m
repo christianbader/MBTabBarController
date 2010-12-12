@@ -49,7 +49,7 @@
 	
 	[[self tabBar] insertSubview:gradientView atIndex:0];
 	
-	arrow = [[ArrowView alloc] initWithFrame:CGRectMake(0.0, -6.0, 10.0, 6.0)];
+	arrow = [[ArrowView alloc] initWithFrame:CGRectMake(0.0, -4.0, 12.0, 4.0)];
 	[gradientView addSubview:arrow];	
 }
 

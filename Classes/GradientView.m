@@ -53,7 +53,7 @@
 	
 
 	if (gradient) {
-		
+							
 		CGColorRef glossColor1 = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.35].CGColor;
 		CGColorRef glossColor2 = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.1].CGColor;
 		
@@ -61,6 +61,8 @@
 									rect.size.width, rect.size.height/2);
 		
 		drawLinearGradient(currentContext, topHalf, glossColor1, glossColor2);
+		
+		drawTopLine(currentContext, rect, tintColor.CGColor);
 	}
 }
 
@@ -106,6 +108,16 @@ void drawLinearGradient(CGContextRef context, CGRect rect, CGColorRef startColor
     CGContextRestoreGState(context);
     
     CGGradientRelease(gradient);
+}
+
+void drawTopLine(CGContextRef context, CGRect rect, CGColorRef color) {
+	
+	CGContextSetStrokeColor(context, CGColorGetComponents(color));
+	CGContextSetLineWidth(context, 2.0);
+	CGContextBeginPath(context);
+	CGContextMoveToPoint(context, 0.0, 0.0);
+	CGContextAddLineToPoint(context, rect.size.width, 0.0);
+	CGContextStrokePath(context);
 }
 
 @end

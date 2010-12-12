@@ -20,5 +20,6 @@
 @property (nonatomic, assign) BOOL gradient;
 
 void drawLinearGradient(CGContextRef context, CGRect rect, CGColorRef startColor, CGColorRef  endColor);
+void drawTopLine(CGContextRef context, CGRect rect, CGColorRef color);
 
 @end
