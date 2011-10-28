@@ -41,16 +41,16 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	
+
 	CGRect frame = CGRectMake(0, 0, self.view.bounds.size.width, 49);
 	gradientView = [[GradientView alloc] initWithFrame:frame];
 	gradientView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 	gradientView.clipsToBounds = NO;
-	
+
 	[[self tabBar] insertSubview:gradientView atIndex:0];
-	
+
 	arrow = [[ArrowView alloc] initWithFrame:CGRectMake(0.0, -4.0, 12.0, 4.0)];
-	[gradientView addSubview:arrow];	
+	[gradientView addSubview:arrow];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -62,7 +62,7 @@
 #pragma mark Rotation hadling
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-	
+
 	return (toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft ||
 			toInterfaceOrientation == UIInterfaceOrientationLandscapeRight ||
 			toInterfaceOrientation == UIInterfaceOrientationPortrait);
@@ -83,14 +83,14 @@
 - (void)setTabBarTintColor: (UIColor *)newValue {
 	[tabBarTintColor autorelease];
 	tabBarTintColor = [newValue retain];
-	
+
 	arrow.tintColor = newValue;
 	gradientView.tintColor = newValue;
 }
 
 - (void)setTabBarGradient:(BOOL)aGradient {
 	tabBarGradient = aGradient;
-	
+
 	gradientView.gradient = aGradient;
 }
 
@@ -104,7 +104,7 @@
 
 - (void)setSelectedViewController:(UIViewController *)aViewController {
 	[super setSelectedViewController:aViewController];
-	
+
 	[self calculateArrowPos];
 	[self moveArrow:!initial];
 	initial = NO;
@@ -114,44 +114,44 @@
 #pragma mark Helper methods
 
 - (void)calculateArrowPos {
-	
+
 	NSUInteger selectedItem = NSNotFound;
 	selectedItem = self.selectedIndex;
-	
+
 	if (selectedItem != NSNotFound) {
 		selectedItem+=1;
 	}
-	
+
 	// Get the width of an item
 	int itemCount;
 	itemCount = self.tabBar.items.count;
-	
+
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
 		// TODO: max tabbar items on iPad?
 	} else {
 		if (itemCount >= 5) { // Workatound
-			
+
 			itemCount = 5;
-			
+
 			if (selectedItem == NSNotFound || selectedItem >= itemCount) {
 				selectedItem = itemCount;
 			}
 		}
 	}
-	
+
 	float itemWidth;
-	
+
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
 		// TODO: get arrow position for ipad
 		arrowHidden = YES;
 	} else {
 		itemWidth = self.view.bounds.size.width / itemCount;
-		pos = selectedItem * itemWidth - itemWidth / 2.0;	
+		pos = selectedItem * itemWidth - itemWidth / 2.0;
 	}
 }
 
 - (void)moveArrow:(BOOL)animated {
-	
+
 	if (animated) {
 		[UIView beginAnimations:@"SlideAnimation" context:nil];
 		[UIView setAnimationDuration:0.3];
