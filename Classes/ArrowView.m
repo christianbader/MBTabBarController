@@ -17,7 +17,7 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
-		
+
 		self.backgroundColor = [UIColor clearColor];
 		self.tintColor = [UIColor blackColor];
     }
@@ -33,10 +33,10 @@
 #pragma mark Drawing methods
 
 - (void)drawRect:(CGRect)rect {
-	
+
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	CGContextSetFillColorWithColor(context, tintColor.CGColor);
-	
+
 	CGContextBeginPath(context);
 	CGContextMoveToPoint(context, rect.size.width / 2, 0.0);
 	CGContextAddLineToPoint(context, rect.size.width, rect.size.height);
@@ -55,7 +55,7 @@
 - (void)setTintColor:(UIColor *)newValue {
 	[tintColor autorelease];
 	tintColor = [newValue retain];
-	
+
 	[self setNeedsDisplay];
 }
 

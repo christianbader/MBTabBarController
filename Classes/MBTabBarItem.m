@@ -19,12 +19,12 @@
 
 // Designated Initializer
 - (id)initWithTitle:(NSString *)title unselectedImage:(UIImage *)anUnselectedImage selectedImage:(UIImage *)aSelectedImage tag:(NSInteger)tag {
-	
+
 	self.customSelectedImage = aSelectedImage;
-	
+
 	return [self initWithTitle:title image:anUnselectedImage tag:tag];
 }
-	
+
 - (id)initWithTitle:(NSString *)title image:(UIImage *)image tag:(NSInteger)tag {
 
 	if (self = [super initWithTitle:title image:image tag:tag]) {
@@ -35,7 +35,7 @@
 
 - (void)dealloc {
     [customSelectedImage release];
-    [customUnselectedImage release];   
+    [customUnselectedImage release];
     [super dealloc];
 }
 

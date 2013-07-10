@@ -12,12 +12,12 @@
 @interface MBTabBarController : UITabBarController {
 
 	GradientView *gradientView;
-	
+
 	UIColor *tabBarTintColor;
 	BOOL tabBarGradient;
-	
+
 	ArrowView *arrow;
-	
+
 	int pos;
 	BOOL initial;
 	BOOL arrowHidden;

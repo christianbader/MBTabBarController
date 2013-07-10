@@ -10,9 +10,9 @@
 @interface GradientView : UIView {
 
 	UIColor *tintColor;
-	
+
 	CGFloat components[8];
-	
+
 	BOOL gradient;
 }
 
